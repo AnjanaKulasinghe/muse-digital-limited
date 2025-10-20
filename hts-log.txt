@@ -1,0 +1,28 @@
+HTTrack3.49-2 launched on Mon, 20 Oct 2025 12:26:40 at https://ktmathugama.wixsite.com/muse-digital-limited
+(winhttrack https://ktmathugama.wixsite.com/muse-digital-limited -O "/Users/anjanakulasinghe/Documents/Automation/KoungaGames/websites/muse-digital-limited" -%v -r6 -%v )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:26:43	Warning: 	Note: due to https://ktmathugama.wixsite.com remote robots.txt rules, links beginning with these path will be forbidden: *?lightbox=, /_api/* (see in the options to disable this)
+12:26:51	Error: 	"Not Found" (404) at link https://ktmathugama.wixsite.com/c (from https://ktmathugama.wixsite.com/muse-digital-limited)
+12:26:51	Error: 	"Not Found" (404) at link https://ktmathugama.wixsite.com/t (from https://ktmathugama.wixsite.com/muse-digital-limited)
+12:26:51	Error: 	"Not Found" (404) at link https://ktmathugama.wixsite.com/ (from https://ktmathugama.wixsite.com/muse-digital-limited)
+12:26:51	Error: 	"Not Found" (404) at link https://ktmathugama.wixsite.com/"https://i.ytimg.com/vi/3ohkao9y_z4/maxresdefault.jpg" (from https://ktmathugama.wixsite.com/muse-digital-limited)
+12:26:51	Error: 	"Not Found" (404) at link https://ktmathugama.wixsite.com/media/emptystate.85a4add5.svg (from https://ktmathugama.wixsite.com/muse-digital-limited)
+12:26:57	Error: 	"Not Found" (404) at link https://ktmathugama.wixsite.com/api/ (from https://ktmathugama.wixsite.com/muse-digital-limited)
+12:26:57	Error: 	"Not Found" (404) at link https://ktmathugama.wixsite.com/envelope/ (from https://ktmathugama.wixsite.com/muse-digital-limited)
+12:26:57	Error: 	"Not Found" (404) at link https://ktmathugama.wixsite.com/sitemap.xml (from https://ktmathugama.wixsite.com/muse-digital-limited)
+12:26:57	Error: 	"Not Found" (404) at link https://ktmathugama.wixsite.com/feed.xml (from https://ktmathugama.wixsite.com/muse-digital-limited)
+12:26:57	Error: 	"Not Found" (404) at link https://ktmathugama.wixsite.com/decodeURIComponent(e (from https://ktmathugama.wixsite.com/muse-digital-limited)
+12:26:57	Error: 	"Not Found" (404) at link https://ktmathugama.wixsite.com/muse-digital-limited/c (from https://ktmathugama.wixsite.com/muse-digital-limited/team-members)
+12:26:57	Error: 	"Not Found" (404) at link https://ktmathugama.wixsite.com/muse-digital-limited/t (from https://ktmathugama.wixsite.com/muse-digital-limited/team-members)
+12:26:57	Error: 	"Bad Request" (400) at link https://ktmathugama.wixsite.com/muse-digital-limited/robots.txt (from https://ktmathugama.wixsite.com/muse-digital-limited/team-members)
+12:26:57	Error: 	"Not Found" (404) at link https://ktmathugama.wixsite.com/muse-digital-limited/sitemap.xml (from https://ktmathugama.wixsite.com/muse-digital-limited/team-members)
+12:26:57	Error: 	"Not Found" (404) at link https://ktmathugama.wixsite.com/muse-digital-limited/feed.xml (from https://ktmathugama.wixsite.com/muse-digital-limited/team-members)
+12:26:57	Error: 	"Bad Request" (400) at link https://ktmathugama.wixsite.com/muse-digital-limited/decodeURIComponent(e (from https://ktmathugama.wixsite.com/muse-digital-limited/team-members)
+
+HTTrack Website Copier/3.49-2 mirror complete in 17 seconds : 19 links scanned, 2 files written (1696414 bytes overall) [422106 bytes received at 24829 bytes/sec], 1736575 bytes transferred using HTTP compression in 18 files, ratio 22%
+(16 errors, 1 warnings, 0 messages)
