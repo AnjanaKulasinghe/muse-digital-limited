@@ -20260,7 +20260,34 @@
             background: #fff !important;
             background-color: #fff !important;
             margin: 0 !important;
-            padding: 0 !important;
+            padding-top: 10px !important;
+            padding-bottom: 30px !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            box-shadow: none !important;
+            border-bottom: none !important;
+            position: fixed !important;
+            top: 0 !important;
+            z-index: 5 !important;
+        }
+
+        #SITE_HEADER .MW5IWV,
+        #SITE_HEADER .LWbAav,
+        #SITE_HEADER .VgO9Yg,
+        #SITE_HEADER .m4khSP {
+            z-index: 0 !important;
+            position: absolute !important;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        #SITE_HEADER .kn76TK,
+        #SITE_HEADER .TMFrcJ,
+        #SITE_HEADER .QijXjn {
+            z-index: 1 !important;
+            position: relative !important;
         }
 
         #SITE_HEADER {
@@ -20288,11 +20315,11 @@
         [data-mesh-id=SITE_HEADERinlineContent-gridContainer]>[id="comp-mgybprzk"],
         [data-mesh-id=SITE_HEADERinlineContent-gridContainer]>wix-interact-element>[id="comp-mgybprzk"] {
             position: relative;
-            margin: 0 0 0 0;
-            left: -543px;
+            margin: 0;
+            left: 0;
             grid-area: 1 / 1 / 2 / 2;
             justify-self: start;
-            align-self: start;
+            align-self: center;
         }
 
         #SITE_HEADER {
@@ -23348,7 +23375,8 @@
                         <div class="comp-l5s8851h-pinned-layer big2ZD" id="comp-l5s8851h-pinned-layer">
                             <div class="comp-l5s8851h NZHLsZ mfxFLH" id="comp-l5s8851h">
                                 <nav aria-label="Site"
-                                    class="StylableHorizontalMenu3372578893__root StylableHorizontalMenu3372578893---menuMode-4-wrap style-mcvxydni__root wixui-horizontal-menu">
+                                    class="StylableHorizontalMenu3372578893__root StylableHorizontalMenu3372578893---menuMode-4-wrap style-mcvxydni__root wixui-horizontal-menu"
+                                    style="z-index:2000;position:relative;">
                                     <ul class="StylableHorizontalMenu3372578893__menu">
                                         <li aria-current="false"
                                             class="itemDepth02233374943__itemWrapper wixui-horizontal-menu__item"
@@ -23568,7 +23596,7 @@
                                                     </section><!--/$--><!--$-->
                                                     <section class="Oqnisf AboutUs wixui-section focus-within"
                                                         data-block-level-container="ClassicSection" id="AboutUs"
-                                                        tabindex="-1">
+                                                        tabindex="-1" style="padding-top:30px; padding-bottom:30px;">
                                                         <div class="MW5IWV" data-hook="bgLayers"
                                                             data-motion-part="BG_LAYER AboutUs" id="bgLayers_AboutUs">
                                                             <div class="LWbAav Kv1aVt" data-testid="colorUnderlay">
@@ -23590,65 +23618,72 @@
                                                             data-testid="inline-content">
                                                             <div data-mesh-id="AboutUsinlineContent-gridContainer"
                                                                 data-testid="mesh-container-content">
-                                                                <div class="Z_l5lU ku3DBC zQ9jDz qvSjx3 Vq6kJx comp-ividcu8o wixui-rich-text"
-                                                                    data-motion-enter="done"
-                                                                    data-testid="richTextElement" id="comp-ividcu8o">
-                                                                    <h1 class="font_2 wixui-rich-text__text"
-                                                                        style="line-height:1.5em; font-size:30px;"><span
-                                                                            class="wixui-rich-text__text"
-                                                                            style="font-weight:normal;"><span
-                                                                                class="wixui-rich-text__text"
-                                                                                style="font-family:montserrat-black,sans-serif;"><span
-                                                                                    class="wixui-rich-text__text"
-                                                                                    style="letter-spacing:0.05em;">Muse
-                                                                                    Digital Agency &amp;<br
-                                                                                        class="wixui-rich-text__text">
-                                                                                    Creative Video Production
-                                                                                    House</span></span></span></h1>
-                                                                </div>
-                                                                <div class="Z_l5lU ku3DBC zQ9jDz qvSjx3 Vq6kJx comp-ividcu8q wixui-rich-text"
-                                                                    data-motion-enter="done"
-                                                                    data-testid="richTextElement" id="comp-ividcu8q">
-                                                                    <p class="font_6 wixui-rich-text__text"
-                                                                        style="font-size:14px; line-height:1.5em;"><span
-                                                                            class="color_42 wixui-rich-text__text"><span
-                                                                                class="wixui-rich-text__text"
-                                                                                style="font-size:14px;"><span
+                                                                <div style="display: flex; flex-wrap: wrap; align-items: stretch; gap: 32px;">
+                                                                    <div style="flex: 1 1 320px; min-width: 280px; display: flex; flex-direction: column; justify-content: center; align-items: flex-end; text-align: right;">
+                                                                        <div class="Z_l5lU ku3DBC zQ9jDz qvSjx3 Vq6kJx comp-ividcu8o wixui-rich-text"
+                                                                            data-motion-enter="done"
+                                                                            data-testid="richTextElement" id="comp-ividcu8o" style="text-align: right; width: 100%;">
+                                                                            <h1 class="font_2 wixui-rich-text__text"
+                                                                                style="line-height:1.5em; font-size:30px; text-align: right; width: 100%;"><span
                                                                                     class="wixui-rich-text__text"
                                                                                     style="font-weight:normal;"><span
                                                                                         class="wixui-rich-text__text"
-                                                                                        style="font-family:montserrat,sans-serif;"><span
+                                                                                        style="font-family:montserrat-black,sans-serif;"><span
                                                                                             class="wixui-rich-text__text"
-                                                                                            style="letter-spacing:normal;">We
-                                                                                            are a creative video
-                                                                                            production house
-                                                                                            specialising in high-impact
-                                                                                            visual content. Our services
-                                                                                            include videography,
-                                                                                            photography, social media
-                                                                                            campaign creation, 3D
-                                                                                            design, and motion graphics.
-                                                                                            Whether you're launching a
-                                                                                            brand, promoting an event,
-                                                                                            or building your online
-                                                                                            presence. We bring your
-                                                                                            ideas to life through
-                                                                                            compelling visuals and
-                                                                                            storytelling. With a
-                                                                                            talented team of three
-                                                                                            creatives, we combine
-                                                                                            technical skill and artistic
-                                                                                            vision to produce content
-                                                                                            that connects, engages, and
-                                                                                            converts.<br
+                                                                                            style="letter-spacing:0.05em;">Muse
+                                                                                            Digital Agency &amp;<br
                                                                                                 class="wixui-rich-text__text">
-                                                                                            From short-form social
-                                                                                            videos to cinematic brand
-                                                                                            films, we help businesses
-                                                                                            and individuals stand out in
-                                                                                            a crowded digital
-                                                                                            world.</span></span></span></span></span>
-                                                                    </p>
+                                                                                            Creative Video Production
+                                                                                            House</span></span></span></h1>
+                                                                        </div>
+                                                                        <div class="Z_l5lU ku3DBC zQ9jDz qvSjx3 Vq6kJx comp-ividcu8q wixui-rich-text"
+                                                                            data-motion-enter="done"
+                                                                            data-testid="richTextElement" id="comp-ividcu8q" style="text-align: right; width: 100%;">
+                                                                            <p class="font_6 wixui-rich-text__text"
+                                                                                style="font-size:14px; line-height:1.5em; text-align: right; width: 100%;"><span
+                                                                                    class="color_42 wixui-rich-text__text"><span
+                                                                                        class="wixui-rich-text__text"
+                                                                                        style="font-size:14px;"><span
+                                                                                            class="wixui-rich-text__text"
+                                                                                            style="font-weight:normal;"><span
+                                                                                                class="wixui-rich-text__text"
+                                                                                                style="font-family:montserrat,sans-serif;"><span
+                                                                                                    class="wixui-rich-text__text"
+                                                                                                    style="letter-spacing:normal;">We
+                                                                                                    are a creative video
+                                                                                                    production house
+                                                                                                    specialising in high-impact
+                                                                                                    visual content. Our services
+                                                                                                    include videography,
+                                                                                                    photography, social media
+                                                                                                    campaign creation, 3D
+                                                                                                    design, and motion graphics.
+                                                                                                    Whether you're launching a
+                                                                                                    brand, promoting an event,
+                                                                                                    or building your online
+                                                                                                    presence. We bring your
+                                                                                                    ideas to life through
+                                                                                                    compelling visuals and
+                                                                                                    storytelling. With a
+                                                                                                    talented team of three
+                                                                                                    creatives, we combine
+                                                                                                    technical skill and artistic
+                                                                                                    vision to produce content
+                                                                                                    that connects, engages, and
+                                                                                                    converts.<br
+                                                                                                        class="wixui-rich-text__text">
+                                                                                                    From short-form social
+                                                                                                    videos to cinematic brand
+                                                                                                    films, we help businesses
+                                                                                                    and individuals stand out in
+                                                                                                    a crowded digital
+                                                                                                    world.</span></span></span></span></span>
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div style="flex: 1 1 320px; min-width: 280px; display: flex; align-items: center; justify-content: center;">
+                                                                        <img src="/media/AboutUs.png" alt="About Us" style="max-width:100%; height:auto; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
