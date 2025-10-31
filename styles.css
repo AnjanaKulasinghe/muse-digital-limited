@@ -1,0 +1,84 @@
+/* Mobile Responsive Styles */
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 1.5;
+	width: 100%;
+	max-width: 100vw;
+}
+
+img, video {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+section, header, nav, main, footer, div {
+	width: 100%;
+	max-width: 100vw;
+}
+
+/* Responsive navigation/menu bar */
+.menu-bar, nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1em;
+}
+
+/* Responsive grid/flex layouts */
+.flex, .row {
+	display: flex;
+	flex-wrap: wrap;
+}
+.col {
+	flex: 1 1 100%;
+	padding: 1em;
+}
+
+@media (max-width: 900px) {
+	body {
+		font-size: 15px;
+	}
+	.menu-bar, nav {
+		flex-direction: column;
+		padding: 0.5em;
+	}
+	.flex, .row {
+		flex-direction: column;
+	}
+	.col {
+		padding: 0.5em;
+	}
+}
+
+@media (max-width: 600px) {
+	body {
+		font-size: 14px;
+	}
+	h1, h2, h3 {
+		font-size: 1.5em;
+	}
+	.menu-bar, nav {
+		flex-direction: column;
+		padding: 0.25em;
+	}
+	.flex, .row {
+		flex-direction: column;
+	}
+	.col {
+		padding: 0.25em;
+	}
+	section, header, nav, main, footer, div {
+		padding: 0.5em;
+	}
+}
