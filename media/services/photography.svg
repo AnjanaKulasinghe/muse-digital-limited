@@ -1,0 +1,8 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#F39C12"/>
+  <text x="200" y="140" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle" font-weight="bold">Photography</text>
+  <rect x="160" y="180" width="80" height="60" fill="white" opacity="0.3" rx="5"/>
+  <circle cx="200" cy="210" r="20" fill="white" opacity="0.5"/>
+  <circle cx="200" cy="210" r="12" fill="white"/>
+  <circle cx="225" cy="190" r="5" fill="white" opacity="0.7"/>
+</svg>

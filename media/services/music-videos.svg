@@ -1,0 +1,7 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#E94B3C"/>
+  <text x="200" y="130" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle" font-weight="bold">Music</text>
+  <text x="200" y="160" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle" font-weight="bold">Videos</text>
+  <circle cx="200" cy="210" r="35" fill="white" opacity="0.3"/>
+  <polygon points="190,200 190,220 210,210" fill="white"/>
+</svg>

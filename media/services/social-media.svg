@@ -1,0 +1,20 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#1ABC9C"/>
+  <text x="200" y="130" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle" font-weight="bold">Social</text>
+  <text x="200" y="160" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle" font-weight="bold">Media</text>
+  
+  <!-- Instagram-style icon -->
+  <rect x="145" y="190" width="35" height="35" rx="8" fill="white" opacity="0.9"/>
+  <circle cx="162.5" cy="207.5" r="10" fill="none" stroke="#1ABC9C" stroke-width="2.5"/>
+  <circle cx="172" cy="197" r="2" fill="#1ABC9C"/>
+  
+  <!-- Like/Heart icon -->
+  <path d="M 200 225 L 195 215 Q 190 210 195 205 Q 200 200 200 205 Q 200 200 205 205 Q 210 210 205 215 Z" fill="white" opacity="0.9"/>
+  
+  <!-- Share/Network icon -->
+  <circle cx="227" cy="197" r="4" fill="white" opacity="0.9"/>
+  <circle cx="237" cy="207" r="4" fill="white" opacity="0.9"/>
+  <circle cx="227" cy="217" r="4" fill="white" opacity="0.9"/>
+  <line x1="227" y1="197" x2="237" y2="207" stroke="white" stroke-width="2" opacity="0.9"/>
+  <line x1="227" y1="217" x2="237" y2="207" stroke="white" stroke-width="2" opacity="0.9"/>
+</svg>
