@@ -242,3 +242,60 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+
+// === CHECK FOR SUCCESS MESSAGE ===
+window.addEventListener('DOMContentLoaded', function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const messageDiv = document.getElementById('formMessage');
+    
+    if (urlParams.get('success') === 'true' && messageDiv) {
+        messageDiv.innerHTML = '<p style="color: #4CAF50; text-align: center; padding: 15px; background: rgba(76, 175, 80, 0.1); border-radius: 5px; margin-bottom: 20px;">Thank you for your message! We\'ll contact you back soon.</p>';
+        messageDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        
+        // Remove success parameter from URL
+        window.history.replaceState({}, document.title, window.location.pathname);
+    }
+});
+
+// === CONTACT FORM HANDLER ===
+const contactForm = document.getElementById('contactForm');
+const messageDiv = document.getElementById('formMessage');
+
+if (contactForm) {
+    contactForm.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        
+        const formData = new FormData(contactForm);
+        const submitButton = contactForm.querySelector('button[type="submit"]');
+        const originalButtonText = submitButton.textContent;
+        
+        // Show loading state
+        submitButton.textContent = 'Sending...';
+        submitButton.disabled = true;
+        
+        try {
+            const response = await fetch(contactForm.action, {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            });
+            
+            if (response.ok) {
+                messageDiv.innerHTML = '<p style="color: #4CAF50; text-align: center; padding: 15px; background: rgba(76, 175, 80, 0.1); border-radius: 5px; margin-bottom: 20px;">Thank you for your message! We\'ll contact you back soon.</p>';
+                contactForm.reset();
+            } else {
+                messageDiv.innerHTML = '<p style="color: #ef4d50; text-align: center; padding: 15px; background: rgba(239, 77, 80, 0.1); border-radius: 5px; margin-bottom: 20px;">Oops! There was a problem. Please try again.</p>';
+            }
+        } catch (error) {
+            messageDiv.innerHTML = '<p style="color: #ef4d50; text-align: center; padding: 15px; background: rgba(239, 77, 80, 0.1); border-radius: 5px; margin-bottom: 20px;">Oops! There was a problem. Please try again.</p>';
+        } finally {
+            submitButton.textContent = originalButtonText;
+            submitButton.disabled = false;
+            
+            // Scroll to message
+            messageDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+    });
+}

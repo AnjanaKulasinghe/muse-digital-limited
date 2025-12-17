@@ -15,7 +15,9 @@
 	--transition: all 0.3s ease;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -201,8 +203,8 @@ img {
 }
 
 .services-section {
-	background: var(--primary-color);
-	color: var(--secondary-color);
+	background: lightgray;
+	color: black;
 }
 
 .portfolio-section {
@@ -216,7 +218,7 @@ img {
 }
 
 .contact-section {
-	background: var(--primary-color);
+	background: var(--light-gray);
 	color: var(--secondary-color);
 }
 
@@ -368,7 +370,8 @@ section h2 {
 .video-item-small .video-thumbnail {
 	position: relative;
 	width: 100%;
-	padding-bottom: 56.25%; /* 16:9 */
+	padding-bottom: 56.25%;
+	/* 16:9 */
 	overflow: hidden;
 	background: #000;
 }
@@ -505,11 +508,12 @@ section h2 {
 }
 
 @keyframes fadeIn {
-	from { 
+	from {
 		opacity: 0;
 		transform: translateY(20px);
 	}
-	to { 
+
+	to {
 		opacity: 1;
 		transform: translateY(0);
 	}
@@ -690,38 +694,38 @@ section h2 {
 }
 
 .contact-social {
-    display: flex;
-    gap: 20px;
-    align-items: center;
+	display: flex;
+	gap: 20px;
+	align-items: center;
 }
 
 .contact-social a {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid white;
-    border-radius: 50%;
-    text-decoration: none;
-    transition: all 0.3s;
-    color: white;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid white;
+	border-radius: 50%;
+	text-decoration: none;
+	transition: all 0.3s;
+	color: white;
 }
 
 .contact-social a svg {
-    width: 24px;
-    height: 24px;
-    transition: all 0.3s;
+	width: 24px;
+	height: 24px;
+	transition: all 0.3s;
 }
 
 .contact-social a:hover {
-    background-color: var(--accent-color);
-    border-color: var(--accent-color);
-    transform: translateY(-3px);
+	background-color: var(--accent-color);
+	border-color: var(--accent-color);
+	transform: translateY(-3px);
 }
 
 .contact-social a:hover svg {
-    transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .contact-form {
@@ -750,7 +754,7 @@ section h2 {
 
 /* === FOOTER === */
 #site-footer {
-	background: var(--primary-color);
+	background: var(--light-gray);
 	color: var(--secondary-color);
 	padding: 30px 0;
 	text-align: center;
@@ -791,27 +795,27 @@ section h2 {
 	.hero h1 {
 		font-size: 2.5rem;
 	}
-	
+
 	section h2 {
 		font-size: 2rem;
 	}
-	
+
 	.services-grid {
 		grid-template-columns: 1fr;
 	}
-	
+
 	.gallery-item {
 		flex: 0 0 calc(50% - 10px);
 	}
-	
+
 	.testimonials-wrapper h3 {
 		font-size: 2rem;
 	}
-	
+
 	.slideshow {
 		padding: 40px 30px;
 	}
-	
+
 	.slide blockquote p {
 		font-size: 1.1rem;
 		padding: 0 20px;
@@ -829,110 +833,110 @@ section h2 {
 		box-shadow: 0 5px 10px rgba(239, 77, 80, 0.3);
 		border-top: 2px solid var(--accent-color);
 	}
-	
+
 	#main-nav.active {
 		display: block;
 	}
-	
+
 	#main-nav ul {
 		flex-direction: column;
 		padding: 20px;
 		gap: 10px;
 	}
-	
+
 	.mobile-menu-toggle {
 		display: flex;
 	}
-	
+
 	.hero {
 		padding: 80px 0;
 		min-height: 80vh;
 	}
-	
+
 	.hero h1 {
 		font-size: 2rem;
 	}
-	
+
 	.hero p {
 		font-size: 1.2rem;
 	}
-	
+
 	section {
 		padding: 60px 0;
 	}
-	
+
 	.about-content {
 		grid-template-columns: 1fr;
 		gap: 30px;
 	}
-	
+
 	.about-text h2 {
 		text-align: center;
 		font-size: 1.5rem;
 	}
-	
+
 	.contact-content {
 		grid-template-columns: 1fr;
 		gap: 40px;
 	}
-	
+
 	.video-item-small {
 		flex: 0 0 220px;
 	}
-	
+
 	.play-button-small {
 		width: 40px;
 		height: 40px;
 		font-size: 1rem;
 	}
-	
+
 	.gallery-scroll-btn {
 		width: 40px;
 		height: 40px;
 		font-size: 1.5rem;
 	}
-	
+
 	.scroll-left {
 		left: -50px;
 	}
-	
+
 	.scroll-right {
 		right: -50px;
 	}
-	
+
 	.gallery-item {
 		flex: 0 0 100%;
 	}
-	
+
 	.gallery-btn {
 		width: 40px;
 		height: 40px;
 		font-size: 1.5rem;
 	}
-	
+
 	.slideshow {
 		padding: 30px 20px;
 	}
-	
+
 	.slide blockquote p {
 		font-size: 1rem;
 		padding: 0 10px;
 	}
-	
+
 	.slide blockquote p::before {
 		font-size: 3rem;
 		left: -5px;
 		top: -15px;
 	}
-	
+
 	.slide cite {
 		font-size: 0.9rem;
 	}
-	
+
 	.scroll-left {
 		left: 10px;
 	}
-	
+
 	.scroll-right {
 		right: 10px;
 	}
@@ -942,27 +946,27 @@ section h2 {
 	.container {
 		padding: 0 15px;
 	}
-	
+
 	.hero {
 		min-height: 70vh;
 	}
-	
+
 	.hero h1 {
 		font-size: 1.75rem;
 	}
-	
+
 	.hero p {
 		font-size: 1rem;
 	}
-	
+
 	section h2 {
 		font-size: 1.75rem;
 	}
-	
+
 	.btn {
 		padding: 12px 30px;
 	}
-	
+
 	.testimonials-wrapper h3 {
 		font-size: 1.75rem;
 	}
